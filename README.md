@@ -51,22 +51,39 @@ g++ Shooting_Game.cpp -o Shooting_Game -lfreeglut -lglu32 -lopengl32
 
 ## 📁 Project Structure
 SHOOTING_GAME/
+
 │
+
 ├── screenshots/                 # Game screenshots for README & itch.io
+
 │   ├── Menu.png
+
 │   ├── Gameplay.png
+
 │   ├── GameOver.png
+
 │   ├── HighScore.png
+
 │   ├── HowToPlay.png
+
 │   └── About.png
+
 │
+
 ├── freeglut.dll                 # GLUT runtime library (Windows)
+
 ├── output.txt                   # Stores high score data
+
 ├── Shooting_Game.cpp            # Main C++ OpenGL source code
+
 ├── Shooting_Game.exe            # Compiled Windows executable
+
 ├── README.md                    # Project documentation (GitHub)
+
 │
+
 └── (root folder: SHOOTING_GAME)
+
 
 
 ---
